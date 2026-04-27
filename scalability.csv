@@ -1,0 +1,3 @@
+Dataset,Method,Method_ID,Mean_Accuracy,Std_Accuracy,Mean_Time_s,Paper_Accuracy,Delta_vs_Paper,K_Used,N_Train
+HandOutlines,A: ROCKET+Ridge (baseline),A,0.9432,0.0022,174.96,0.9416,0.0016,,1000
+ElectricDevices,A: ROCKET+Ridge (baseline),A,0.7305,0.0016,164.6,0.7305,-0.0,,8926

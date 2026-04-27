@@ -36,9 +36,6 @@ Open `TImeseries.ipynb` in Google Colab and run all cells.
 Results are checkpointed automatically to `results/results_in_progress.csv`
 after every method-dataset pair, so the run can be interrupted and resumed.
 
-### 3. Skip rerunning — load existing results
-To regenerate plots only, run the final plotting cells directly.
-The completed `results/results.csv` is included in this repo.
 
 ---
 

@@ -11,7 +11,7 @@ by Dempster et al. (2020) for time series classification.
 ## Repository Structure
 
 ```
-TImeseries.ipynb          # Full experiment notebook (A–J + scalability)
+AI_Timeseries_Notebook.ipynb          # Full experiment notebook (A–J + scalability)
 results/
   results.csv             # All results: 21 datasets x 10 methods x 10 seeds
   scalability.csv         # HandOutlines + ElectricDevices, Method A, 3 seeds
@@ -32,10 +32,14 @@ pip install aeon==1.4.0 scikit-learn==1.6.1 xgboost seaborn matplotlib
 ```
 
 ### 2. Run in Google Colab
-Open `TImeseries.ipynb` in Google Colab and run all cells.
+Open `AI_Timeseries_Notebook.ipynb` in Google Colab and run all cells.
 Results are checkpointed automatically to `results/results_in_progress.csv`
 after every method-dataset pair, so the run can be interrupted and resumed.
 
+### 3.Regenerate plots
+To regenerate plots only without rerunning experiments, 
+run the last cell in the notebook. It loads results/results.csv 
+and regenerates all five figures.
 
 ---
 
